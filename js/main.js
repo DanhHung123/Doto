@@ -3,10 +3,10 @@ var swiper = new Swiper(".mySwiper", {
 	centeredSlides: true,
 	loop: true,
 	slidesPerView: 1,
-	// autoplay: {
-	// 	delay: 2500,
-	// 	disableOnInteraction: false,
-	// },
+	autoplay: {
+		delay: 2500,
+		disableOnInteraction: false,
+	},
 	pagination: {
 		el: ".swiper-pagination",
 		clickable: true,
@@ -72,11 +72,18 @@ if (pack) {
 }
 
 const indimenu = document.querySelector(".indica-menu");
-const meuItems = document.querySelectorAll(".menuList > li");
-if (indimenu) {
-	meuItems.forEach((item) => {
-		item.addEventListener("click", (e) => {
-			indimenu.style.top = e.target.offsetTop + 8 + "px";
+const meuItems = document.querySelectorAll(".menuList > a");
+const mainScroll = document.querySelector("#mainScroll");
+
+if (mainScroll && meuItems) {
+	mainScroll.addEventListener("scroll", function () {
+		const sections = document.querySelectorAll(".section-c");
+
+		sections.forEach((section, index) => {
+			const rect = section.getBoundingClientRect();
+			if (rect.top <= 150 && rect.bottom >= 150) {
+				indimenu.style.top = meuItems[index].offsetTop + 8 + "px";
+			}
 		});
 	});
 }

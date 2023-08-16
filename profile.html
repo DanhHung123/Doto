@@ -70,44 +70,60 @@
         <div class="col-span-2">
           <h2 class="text-[37.8px] font-medium mt-8 mb-5">Xin chào bạn!</h2>
           <ul class="relative menuList">
-            <li class="py-3 border-t-2 border-foot/50 text-16 font-normal pl-5 cursor-pointer">
-              <span class="text-[20px] w-[30px] inline-block"><i class="fa-solid fa-user"></i></span>
-              Tài khoản của tôi
-            </li>
-            <li class="py-3 border-t-2 border-foot/50 text-16 font-normal pl-5 cursor-pointer">
-              <span class="text-[20px] w-[30px] inline-block"><i class="fa-solid fa-car"></i></span>
-              Xe của tôi
-            </li>
-            <li class="py-3 border-t-2 border-foot/50 text-16 font-normal pl-5 cursor-pointer">
-              <span class="text-[20px] w-[30px] inline-block"><i class="fa-solid fa-shield-check"></i></span>
-              Dịch vụ của tôi
-            </li>
-            <li class="py-3 border-t-2 border-foot/50 text-16 font-normal pl-5 cursor-pointer">
-              <span class="text-[20px] w-[30px] inline-block"><i class="fa-solid fa-wallet"></i></span>
-              Ngân hàng của tôi
-            </li>
-            <li class="py-3 border-t-2 border-foot/50 text-16 font-normal pl-5 cursor-pointer">
-              <span class="text-[20px] w-[30px] inline-block"><i class="fa-solid fa-gift"></i></span>
-              Khuyến mãi / Quà tặng
-            </li>
-            <li class="py-3 border-t-2 border-foot/50 text-16 font-normal pl-5 cursor-pointer">
-              <span class="text-[20px] w-[30px] inline-block"><i class="fa-solid fa-map-location-dot"></i></span>
-              Địa chỉ của tôi
-            </li>
-            <li class="py-3 border-t-2 border-foot/50 text-16 font-normal pl-5 cursor-pointer">
-              <span class="text-[20px] w-[30px] inline-block"><i class="fa-solid fa-lock-keyhole"></i></span>
-              Đổi mật khẩu
-            </li>
-            <li class="py-3 border-t-2 border-foot/50 text-16 font-normal pl-5 cursor-pointer">
-              <span class="text-[20px] w-[30px] inline-block"><i class="fa-regular fa-arrow-right-from-bracket"></i></span>
-              Đăng xuất
-            </li>
+            <a href="#detail-profile">
+              <li class="py-3 border-t-2 border-foot/50 text-16 font-normal pl-5 cursor-pointer">
+                <span class="text-[20px] w-[30px] inline-block"><i class="fa-solid fa-user"></i></span>
+                Tài khoản của tôi
+              </li>
+            </a>
+            <a href="#my-car">
+              <li class="py-3 border-t-2 border-foot/50 text-16 font-normal pl-5 cursor-pointer">
+                <span class="text-[20px] w-[30px] inline-block"><i class="fa-solid fa-car"></i></span>
+                Xe của tôi
+              </li>
+            </a>
+            <a href="#my-service">
+              <li class="py-3 border-t-2 border-foot/50 text-16 font-normal pl-5 cursor-pointer">
+                <span class="text-[20px] w-[30px] inline-block"><i class="fa-solid fa-shield-check"></i></span>
+                Dịch vụ của tôi
+              </li>
+            </a>
+            <a href="#">
+              <li class="py-3 border-t-2 border-foot/50 text-16 font-normal pl-5 cursor-pointer">
+                <span class="text-[20px] w-[30px] inline-block"><i class="fa-solid fa-wallet"></i></span>
+                Ngân hàng của tôi
+              </li>
+            </a>
+            <a href="#">
+              <li class="py-3 border-t-2 border-foot/50 text-16 font-normal pl-5 cursor-pointer">
+                <span class="text-[20px] w-[30px] inline-block"><i class="fa-solid fa-gift"></i></span>
+                Khuyến mãi / Quà tặng
+              </li>
+            </a>
+            <a href="#my-address">
+              <li class="py-3 border-t-2 border-foot/50 text-16 font-normal pl-5 cursor-pointer">
+                <span class="text-[20px] w-[30px] inline-block"><i class="fa-solid fa-map-location-dot"></i></span>
+                Địa chỉ của tôi
+              </li>
+            </a>
+            <a href="#">
+              <li class="py-3 border-t-2 border-foot/50 text-16 font-normal pl-5 cursor-pointer">
+                <span class="text-[20px] w-[30px] inline-block"><i class="fa-solid fa-lock-keyhole"></i></span>
+                Đổi mật khẩu
+              </li>
+            </a>
+            <a href="#">
+              <li class="py-3 border-t-2 border-foot/50 text-16 font-normal pl-5 cursor-pointer">
+                <span class="text-[20px] w-[30px] inline-block"><i class="fa-regular fa-arrow-right-from-bracket"></i></span>
+                Đăng xuất
+              </li>
+            </a>
             <div class="indica-menu"></div>
           </ul>
         </div>
-        <div class="col-span-8 max-h-[calc(100vh-106px)] overflow-auto">
+        <div id="mainScroll" class="col-span-8 max-h-[calc(100vh-106px)] overflow-auto">
           <div class="pl-12">
-            <div class="w-full h-full bg-[#F6F6F6] p-12">
+            <div id="detail-profile" class="section-c w-full h-full bg-[#F6F6F6] p-12">
               <div class="flex flex items-center gap-10">
                 <h3 class="text-[25.2px] font-medium">Thông tin tài khoản</h3>
                 <button class="rounded-full w-[35px] h-[35px] flex items-center justify-center border border-foot">
@@ -168,7 +184,7 @@
                 </div>
               </div>
             </div>
-            <div class="py-12 pl-12">
+            <div id="my-car" class="section-c py-12 pl-12">
               <h3 class="text-[28px] font-medium">Xe của tôi</h3>
               <div class="grid grid-cols-7 mt-5 gap-10">
                 <div class="col-span-4">
@@ -349,7 +365,7 @@
               </div>
             </div>
 
-            <div class="py-12 px-12">
+            <div id="my-service" class="section-c py-12 px-12">
               <h3 class="text-[28px] font-medium">Dịch vụ của tôi</h3>
               <div class="w-fit h-fit flex items-center">
                 <button class="py-4 px-5 text-[25.2px] border-b-[3px] border-primary">Đang dùng</button>
@@ -378,7 +394,10 @@
               </div>
             </div>
 
-            <div class="w-full h-full bg-[#F6F6F6] p-12">
+            <div class="section-c invisible"></div>
+            <div class="section-c invisible"></div>
+
+            <div id="my-address" class="section-c w-full h-full bg-[#F6F6F6] p-12">
               <div class="flex items-center justify-between">
                 <h3 class="text-[28px] font-medium">Địa chỉ của tôi</h3>
                 <button class="py-3 px-8 rounded-md border-2 border-foot">Thêm địa chỉ mới</button>
