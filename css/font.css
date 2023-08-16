@@ -1,0 +1,206 @@
+@font-face {
+	font-family: "SVN";
+	src: url("../font/TTF/SVN-Pragmatica\ Black.ttf") format("truetype"),
+		url("../font/OTF/SVN-Pragmatica\ Black.otf") format("opentype");
+	font-weight: 900;
+}
+
+@font-face {
+	font-family: "SVN";
+	src: url("../font/TTF/SVN-Pragmatica\ Black\ Italic.ttf") format("truetype"),
+		url("../font/OTF/SVN-Pragmatica\ Black\ Italic.otf") format("opentype");
+	font-weight: 900;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "SVN";
+	src: url("../font/TTF/SVN-Pragmatica\ ExtraBold.ttf") format("truetype"),
+		url("../font/OTF/SVN-Pragmatica\ ExtraBold.otf") format("opentype");
+	font-weight: 800;
+}
+
+@font-face {
+	font-family: "SVN";
+	src: url("../font/TTF/SVN-Pragmatica\ ExtraBold\ Italic.ttf")
+			format("truetype"),
+		url("../font/OTF/SVN-Pragmatica\ ExtraBold\ Italic.otf") format("opentype");
+	font-weight: 800;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "SVN";
+	src: url("../font/TTF/SVN-Pragmatica\ Bold.ttf") format("truetype"),
+		url("../font/OTF/SVN-Pragmatica\ Bold.otf") format("opentype");
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "SVN";
+	src: url("../font/TTF/SVN-Pragmatica\ Bold\ Italic.ttf") format("truetype"),
+		url("../font/OTF/SVN-Pragmatica\ Bold\ Italic.otf") format("opentype");
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "SVN";
+	src: url("../font/TTF/SVN-Pragmatica\ Medium.ttf") format("truetype"),
+		url("../font/OTF/SVN-Pragmatica\ Medium.otf") format("opentype");
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "SVN";
+	src: url("../font/TTF/SVN-Pragmatica\ Medium\ Italic.ttf") format("truetype"),
+		url("../font/OTF/SVN-Pragmatica\ Medium\ Italic.otf") format("opentype");
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "SVN";
+	src: url("../font/TTF/SVN-Pragmatica\ Book.ttf") format("truetype"),
+		url("../font/OTF/SVN-Pragmatica\ Book.otf") format("opentype");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "SVN";
+	src: url("../font/TTF/SVN-Pragmatica\ Book\ Italic.ttf") format("truetype"),
+		url("../font/OTF/SVN-Pragmatica\ Book\ Italic.otf") format("opentype");
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "SVN";
+	src: url("../font/TTF/SVN-Pragmatica\ Light.ttf") format("truetype"),
+		url("../font/OTF/SVN-Pragmatica\ Light.otf") format("opentype");
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "SVN";
+	src: url("../font/TTF/SVN-Pragmatica\ Light\ Italic.ttf") format("truetype"),
+		url("../font/OTF/SVN-Pragmatica\ Light\ Italic.otf") format("opentype");
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "SVN";
+	src: url("../font/TTF/SVN-Pragmatica\ ExtraLight.ttf") format("truetype"),
+		url("../font/OTF/SVN-Pragmatica\ ExtraLight.otf") format("opentype");
+	font-weight: 200;
+}
+
+@font-face {
+	font-family: "SVN";
+	src: url("../font/TTF/SVN-Pragmatica\ ExtraLight\ Italic.ttf")
+			format("truetype"),
+		url("../font/OTF/SVN-Pragmatica\ ExtraLight\ Italic.otf") format("opentype");
+	font-weight: 200;
+	font-style: italic;
+}
+
+/* Coud */
+/* @font-face {
+	font-family: "SVN";
+	src: url("../font/TTF/SVN-Pragmatica\ Cond\ Black.ttf") format("truetype");
+	font-weight: 900;
+}
+
+@font-face {
+	font-family: "SVN";
+	src: url("../font/TTF/SVN-Pragmatica\ Cond\ Black\ Italic.ttf")
+		format("truetype");
+	font-weight: 900;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "SVN";
+	src: url("../font/TTF/SVN-Pragmatica\ Cond\ Bold.ttf") format("truetype");
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "SVN";
+	src: url("../font/TTF/SVN-Pragmatica\ Cond\ Bold\ Italic.ttf")
+		format("truetype");
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "SVN";
+	src: url("../font/TTF/SVN-Pragmatica\ Cond\ Book.ttf") format("truetype");
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "SVN";
+	src: url("../font/TTF/SVN-Pragmatica\ Cond\ Book\ Italic.ttf")
+		format("truetype");
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "SVN";
+	src: url("../font/TTF/SVN-Pragmatica\ Cond\ ExtraBold.ttf") format("truetype");
+	font-weight: 800;
+}
+
+@font-face {
+	font-family: "SVN";
+	src: url("../font/TTF/SVN-Pragmatica\ Cond\ ExtraBold\ Italic.ttf")
+		format("truetype");
+	font-weight: 800;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "SVN";
+	src: url("../font/TTF/SVN-Pragmatica\ Cond\ ExtraLight.ttf")
+		format("truetype");
+	font-weight: 200;
+}
+
+@font-face {
+	font-family: "SVN";
+	src: url("../font/TTF/SVN-Pragmatica\ Cond\ ExtraLight\ Italic.ttf")
+		format("truetype");
+	font-weight: 200;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "SVN";
+	src: url("../font/TTF/SVN-Pragmatica\ Cond\ Light.ttf") format("truetype");
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "SVN";
+	src: url("../font/TTF/SVN-Pragmatica\ Cond\ Light\ Italic.ttf")
+		format("truetype");
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "SVN";
+	src: url("../font/TTF/SVN-Pragmatica\ Cond\ Medium.ttf") format("truetype");
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "SVN";
+	src: url("../font/TTF/SVN-Pragmatica\ Cond\ Medium\ Italic.ttf")
+		format("truetype");
+	font-weight: 500;
+	font-style: italic;
+} */

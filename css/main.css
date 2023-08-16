@@ -1,0 +1,173 @@
+.swiper {
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.indcator {
+	width: 50%;
+	height: 4px;
+	background-color: #2262e0;
+	border-radius: 10px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	transition: 0.25s;
+}
+
+.login,
+.regis {
+	transition: 0.25s;
+}
+
+.animate {
+	animation: fade 1s ease;
+}
+
+@keyframes fade {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+.dot-noty::before {
+	content: "";
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+	background-color: #fe5757;
+	position: absolute;
+	top: 5px;
+	right: 0;
+}
+
+.hide-down {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	/* background: url("path_to_custom_icon.png") no-repeat right center; */
+	padding-right: 20px;
+}
+
+/* Switch button checkbox */
+.toggle-switch {
+	position: relative;
+	display: inline-block;
+	width: 40px;
+	height: 24px;
+	margin: 10px;
+}
+
+.toggle-switch .toggle-input {
+	display: none;
+}
+
+.toggle-switch .toggle-label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 40px;
+	height: 24px;
+	background-color: #bebebe;
+	border-radius: 34px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.toggle-switch .toggle-label::before {
+	content: "";
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	top: 2px;
+	left: 2px;
+	background-color: #fff;
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+	transition: transform 0.3s;
+}
+
+.toggle-switch .toggle-input:checked + .toggle-label {
+	background-color: #2262e0;
+}
+
+.toggle-switch .toggle-input:checked + .toggle-label::before {
+	transform: translateX(16px);
+}
+
+.toggle-switch.light .toggle-label {
+	background-color: #bebebe;
+}
+
+.toggle-switch.light .toggle-input:checked + .toggle-label {
+	background-color: #9b9b9b;
+}
+
+.toggle-switch.light .toggle-input:checked + .toggle-label::before {
+	transform: translateX(6px);
+}
+
+.toggle-switch.dark .toggle-label {
+	background-color: #4b4b4b;
+}
+
+.toggle-switch.dark .toggle-input:checked + .toggle-label {
+	background-color: #717171;
+}
+
+.toggle-switch.dark .toggle-input:checked + .toggle-label::before {
+	transform: translateX(16px);
+}
+
+/*  */
+
+.indica-menu {
+	width: 3px;
+	height: calc((100% / 8) - 16px);
+	border-radius: 10px;
+	background-color: #2262e0;
+	position: absolute;
+	left: 0;
+	top: 8px;
+	transition: 0.25s;
+}
+
+.conic {
+	height: 160px;
+	width: 160px;
+	border-radius: 50%;
+	background: conic-gradient(
+		from 180deg,
+		#2262e0 180deg var(--percent),
+		white var(--percent) 360deg
+	);
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.conic::before {
+	content: "";
+	background-color: white;
+	width: 80%;
+	height: 80%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+}
